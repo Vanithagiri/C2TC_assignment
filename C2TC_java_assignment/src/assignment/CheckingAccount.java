@@ -1,9 +1,8 @@
-package assignment4;
+package assignment;
 
-public class SavingsAccount extends Account {
-    private static final double MIN_BALANCE = 500.0;
+public class CheckingAccount extends Account {
 
-    public SavingsAccount(String accountHolder, double balance) {
+    public CheckingAccount(String accountHolder, double balance) {
         super(accountHolder, balance);
     }
 
@@ -15,11 +14,11 @@ public class SavingsAccount extends Account {
 
     @Override
     public void withdraw(double amount) {
-        if (balance - amount >= MIN_BALANCE) {
+        if (balance >= amount) {
             balance -= amount;
             System.out.println("Withdrawn: " + amount + " | New Balance: " + balance);
         } else {
-            System.out.println("Insufficient balance. Min balance required: " + MIN_BALANCE);
+            System.out.println("Insufficient balance.");
         }
     }
 

@@ -1,4 +1,4 @@
-package assignment4;
+package assignment;
 
 public class Transaction {
     private final double transactionFee = 10.0;  // final variable

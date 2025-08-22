@@ -1,4 +1,4 @@
-package assignment4;
+package assignment;
 
 public abstract class Account {
     protected String accountHolder;
