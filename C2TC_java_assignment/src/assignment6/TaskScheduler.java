@@ -1,4 +1,4 @@
-package taskscheduler_assignment;
+package assignment6;
 
 import java.util.concurrent.*;
 

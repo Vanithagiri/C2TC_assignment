@@ -1,4 +1,4 @@
-package taskscheduler_assignment;
+package assignment6;
 
 public class TaskSchedulerDemo {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package taskscheduler_assignment;
+package assignment6;
 
 public interface Task {
 	void execute();
